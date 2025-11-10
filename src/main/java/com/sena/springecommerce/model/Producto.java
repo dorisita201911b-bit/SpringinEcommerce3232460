@@ -18,13 +18,12 @@ public class Producto {
 	private Integer cantidad;
 	private String descripcion;
 	private String imagen;
-	
+
 	@ManyToOne
 	private Usuario usuario;
 
 	public Producto() {
-		
-		
+
 	}
 
 	public Producto(Integer id, String nombre, Double precio, Integer cantidad, String descripcion, String imagen,
@@ -99,9 +98,7 @@ public class Producto {
 	public String toString() {
 		return "Producto [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", cantidad=" + cantidad
 				+ ", descripcion=" + descripcion + ", imagen=" + imagen + "]";
-		
+
 	}
-	
-	
 
 }

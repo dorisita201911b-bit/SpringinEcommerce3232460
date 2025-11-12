@@ -13,7 +13,7 @@ public interface IUsuarioService {
 
 	public Optional<Usuario> get(Integer id);
 
-	public void update(Usuario usuario);
+	public void update(Usuario Usuario);
 
 	public void delete(Integer id);
 

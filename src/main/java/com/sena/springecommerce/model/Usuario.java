@@ -109,4 +109,39 @@ public class Usuario {
 				+ ", direccion=" + direccion + ", rol=" + rol + ", password=" + password + "]";
 	}
 
+	public void setUsuario(Usuario u) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Object getImagen() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setImagen(Object imagen) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Double getPrecio() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Integer getCantidad() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setPrecio(Double precio) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setCantidad(Integer cantidad) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

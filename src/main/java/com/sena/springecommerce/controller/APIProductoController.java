@@ -83,7 +83,7 @@ public class APIProductoController {
 	}
 
 	// Endpoint DELETE para eliminar un producto
-	@DeleteMapping("/delete/{id")
+	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<?> deleteProduct(@PathVariable Integer id) {
 		Optional<Producto> producto = productoservice.get(id);
 		if (!producto.isPresent()) {

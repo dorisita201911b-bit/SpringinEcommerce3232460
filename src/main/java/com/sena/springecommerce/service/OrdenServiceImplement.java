@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import com.sena.springecommerce.model.Orden;
 import com.sena.springecommerce.model.Usuario;
-import com.sena.springecommerce.repository.IDetalleOrdenRepository;
 import com.sena.springecommerce.repository.IOrdenRepository;
 
 @Service
@@ -31,9 +30,9 @@ public class OrdenServiceImplement implements IOrdenService {
 	}
 
 	@Override
-	public List<Orden> finidByUsuario(Usuario usuario) {
+	public List<Orden> findByUsuario(Usuario usuario) {
 		// TODO Auto-generated method stub
-		return ordenRepository.finByUsuario(usuario);
+		return ordenRepository.findByUsuario(usuario);
 	}
 
 	@Override

@@ -82,8 +82,8 @@ public class Producto {
 		return imagen;
 	}
 
-	public void setImagen(String imagen) {
-		this.imagen = imagen;
+	public void setImagen(Object imagen) {
+		this.imagen = (String) imagen;
 	}
 
 	public Usuario getUsuario() {
